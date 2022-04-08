@@ -1,0 +1,39 @@
+/* style goes here */
+h1 {
+    color: green
+}
+
+.paragraph {
+    font-size: 14 px;
+    font-family: 'Playfair Display', serif;
+}
+
+#content {
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: cornsilk;
+    border-width: 10px;
+    border-color: darkblue;
+    border-style: dotted;
+}
+
+#content,
+.paragraph {
+    color: grey;
+}
+
+body>p {
+    font-size: 20px;
+}
+
+#content .paragraph:hover {
+    color: red;
+}
+
+.paragraph:first-child {
+    color: blue;
+}
+
